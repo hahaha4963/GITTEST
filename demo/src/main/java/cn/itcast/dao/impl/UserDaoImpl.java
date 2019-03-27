@@ -22,4 +22,10 @@ public class UserDaoImpl implements UserDao {
         }
         return users;
     }
+
+    public void userTest(){
+        System.out.println("修改了代码的地方");
+        System.out.println("将代码传到git上");
+    }
+
 }
