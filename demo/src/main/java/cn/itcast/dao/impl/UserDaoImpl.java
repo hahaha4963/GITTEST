@@ -26,6 +26,8 @@ public class UserDaoImpl implements UserDao {
     public void userTest(){
         System.out.println("修改了代码的地方");
         System.out.println("将代码传到git上");
+        System.out.println("第二次代码修改");
+        System.out.println("将修改的代码提交到分支上");
     }
 
 }
