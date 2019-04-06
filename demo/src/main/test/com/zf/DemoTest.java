@@ -16,6 +16,10 @@ public class DemoTest {
         DemoModule mahuateng = new DemoModule("mahuateng", 1000000D);
         DemoModule wangsicong = new DemoModule("wangsicong", 100000000D);
 
+        mahuateng.setAccountName("hahaha");
+        System.out.println(mahuateng.getAccountName());
+        System.out.println("********************");
+
         zhangfan.qiangBalance(1000D);
         zhangfan.shouBalance();
         System.out.println("+++++++++++++++++++++++");
