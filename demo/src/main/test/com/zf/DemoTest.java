@@ -3,6 +3,7 @@ package com.zf;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class DemoTest {
 
@@ -20,7 +21,7 @@ public class DemoTest {
         System.out.println("+++++++++++++++++++++++");
 
         //将他们拉进一个群中
-        ArrayList<DemoModule> names = new ArrayList<DemoModule>();
+        List<DemoModule> names = new ArrayList<DemoModule>();
         names.add(zhangfan);
         names.add(mahuateng);
         names.add(wangsicong);
