@@ -16,6 +16,7 @@
     </environments>
 
     <mappers>
-        <mapper resource="com/zf/dao/IUserDao.xml"/>
+        <!--<mapper resource="com/zf/dao/IUserDao.xml"/>-->
+        <mapper class="com.zf.dao.IUserDao"/>
     </mappers>
 </configuration>
